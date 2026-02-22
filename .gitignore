@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.pyc
+
+# Environment variables — NEVER commit your API keys
+.env
+backend/.env
+
+# Database — don't commit local data
+*.db
+*.sqlite
+
+# Logs — don't commit local telemetry
+backend/logs/
+
+# Node
+node_modules/
+.next/
+frontend/.env.local
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
